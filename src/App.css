@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #4B0082; /* Deep indigo color for strong contrast */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Updated the background and form styling for readability */
+.login-container {
+  background-image: url('./BGpic.jpg'); /* Correct path from public folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Other styles remain the same */
+
+
+.login-form {
+  background-color: rgba(75, 0, 130, 0.8); /* Semi-transparent indigo */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white; /* White text for high contrast */
+}
+
+.login-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.login-form button {
+  background-color: #800080; /* Dark violet */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-form button:hover {
+  background-color: #4B0082; /* Slightly darker on hover */
 }
